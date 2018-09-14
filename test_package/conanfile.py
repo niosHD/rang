@@ -2,6 +2,7 @@ from conans import ConanFile, Meson
 import os
 
 class RangConan(ConanFile):
+    settings = 'os', 'compiler', 'build_type', 'arch'
     generators = "pkg_config"
     exports_sources = "*"
 
