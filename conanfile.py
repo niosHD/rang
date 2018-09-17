@@ -28,7 +28,7 @@ class RangConan(ConanFile):
     no_copy_source = True
     scm = {
         "type": "git",
-        "url": "auto",
+        "url": "https://github.com/niosHD/rang.git",
         "revision": "auto"
     }
 
